@@ -1,0 +1,62 @@
+{
+  "id": "article_list",
+  "type": "SharedSlice",
+  "name": "ArticleList",
+  "description": "ArticleList",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ArticleList",
+      "primary": {
+        "sectionTitle": {
+          "config": {
+            "label": "Article Section Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {
+        "articleImage": {
+          "config": {
+            "label": "Article Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "articleTitle": {
+          "config": {
+            "label": "Article Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          },
+          "type": "StructuredText"
+        },
+        "articleLink": {
+          "config": {
+            "label": "Article Link",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "articleDescription": {
+          "config": {
+            "label": "Article Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        }
+      }
+    }
+  ]
+}

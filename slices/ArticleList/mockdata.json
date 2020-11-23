@@ -1,0 +1,122 @@
+[
+   {
+      "id":"default-slice",
+      "name":"Default slice",
+      "docURL":"...",
+      "version":"sktwi1xtmkfgx8626",
+      "description":"ArticleList",
+      "primary":{
+         "sectionTitle":[
+            {
+               "type":"heading1",
+               "text":"Check out some delicious recipes",
+               "spans":[
+
+               ]
+            }
+         ]
+      },
+      "items":[
+         {
+            "articleImage":{
+               "dimensions":{
+                  "width":900,
+                  "height":500
+               },
+               "alt":"Placeholder image",
+               "copyright":null,
+               "url":"https://images.prismic.io/important-sm-images/ef9ad315-8fee-4074-aab6-e12970a1644c_yNB8niq1qCk.jpg?w=900&h=500"
+            },
+            "articleTitle":[
+               {
+                  "type":"heading3",
+                  "text":"Sicilian Pizza With Pepperoni and Spicy Tomato Sauce",
+                  "spans":[
+
+                  ]
+               }
+            ],
+            "articleLink":{
+               "link_type":"Web",
+               "url":"https://slicemachine.dev"
+            },
+            "articleDescription":[
+               {
+                  "type":"heading4",
+                  "text":"A spicy, cheesy, well-risen square pizza with crispy chalices of pepperoni.",
+                  "spans":[
+
+                  ]
+               }
+            ]
+         },
+         {
+            "articleImage":{
+               "dimensions":{
+                  "width":900,
+                  "height":500
+               },
+               "alt":"Placeholder image",
+               "copyright":null,
+               "url":"https://images.prismic.io/important-sm-images/05b6c285-b5a7-4034-aa4c-79d41670c3a8_rfS6oq6MWlU.jpg?w=900&h=500"
+            },
+            "articleTitle":[
+               {
+                  "type":"heading3",
+                  "text":"New-York Style Pizza Dough to make you forgettaboutit",
+                  "spans":[
+
+                  ]
+               }
+            ],
+            "articleLink":{
+               "link_type":"Web",
+               "url":"https://slicemachine.dev"
+            },
+            "articleDescription":[
+               {
+                  "type":"heading4",
+                  "text":"Bring a taste of New York City anywhere with this simple recipe for the all-American slice.",
+                  "spans":[
+
+                  ]
+               }
+            ]
+         },
+         {
+            "articleImage":{
+               "dimensions":{
+                  "width":900,
+                  "height":500
+               },
+               "alt":"Placeholder image",
+               "copyright":null,
+               "url":"https://images.prismic.io/important-sm-images/5782503d-59e4-4a8a-bc4f-0388ee5b7a3d_Nhm0Uj5U7wc.jpg?w=900&h=500"
+            },
+            "articleTitle":[
+               {
+                  "type":"heading3",
+                  "text":"No-Fuss, Foolproof, Impossible-to-mess-up Detroit Style Pizza",
+                  "spans":[
+
+                  ]
+               }
+            ],
+            "articleLink":{
+               "link_type":"Web",
+               "url":"https://slicemachine.dev"
+            },
+            "articleDescription":[
+               {
+                  "type":"heading4",
+                  "text":"Pan pizza, Motor City–style.",
+                  "spans":[
+
+                  ]
+               }
+            ]
+         }
+      ],
+      "slice_type":"article_list"
+   }
+]

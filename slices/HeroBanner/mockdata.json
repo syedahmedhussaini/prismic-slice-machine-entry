@@ -1,0 +1,61 @@
+[
+   {
+      "id":"default-slice",
+      "name":"Default slice",
+      "docURL":"...",
+      "version":"sktwi1xtmkfgx8626",
+      "description":"HeroBanner",
+      "primary":{
+         "image":{
+            "dimensions":{
+               "width":900,
+               "height":500
+            },
+            "alt":"Placeholder image",
+            "copyright":null,
+            "url":"https://images.prismic.io/important-sm-images/5782503d-59e4-4a8a-bc4f-0388ee5b7a3d_Nhm0Uj5U7wc.jpg?w=900&h=500",
+            "mobile":{
+               "dimensions":{
+                  "width":400,
+                  "height":400
+               },
+               "alt":"Placeholder image",
+               "copyright":null,
+               "url":"https://images.prismic.io/important-sm-images/e715a30d-4dbd-4960-8343-7ebdaeef1da8_qKM6rVckY3c.jpg?w=400&h=400"
+            }
+         },
+         "title":[
+            {
+               "type":"heading1",
+               "text":"Love at first slice",
+               "spans":[
+
+               ]
+            }
+         ],
+         "description":[
+            {
+               "type":"paragraph",
+               "text":"Additional copy that appears below the headline.",
+               "spans":[
+
+               ]
+            }
+         ],
+         "ctaLink":{
+            "link_type":"Web",
+            "url":"https://slicemachine.dev"
+         },
+         "ctaLabel":"Get Started",
+         "secondaryCtaLink":{
+            "link_type":"Web",
+            "url":"https://slicemachine.dev"
+         },
+         "secondaryCtaLabel":"Learn More"
+      },
+      "items":[
+
+      ],
+      "slice_type":"hero_banner"
+   }
+]

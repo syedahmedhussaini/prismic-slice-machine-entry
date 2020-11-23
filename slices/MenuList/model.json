@@ -1,0 +1,63 @@
+{
+  "id": "menu_list",
+  "type": "SharedSlice",
+  "name": "MenuList",
+  "description": "MenuList",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "MenuList",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        }
+      },
+      "items": {
+        "itemImage": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "itemName": {
+          "type": "StructuredText",
+          "config": {
+            "label": "",
+            "id": "itemName",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          }
+        },
+        "itemDescription": {
+          "type": "StructuredText",
+          "config": {
+            "label": "",
+            "id": "itemDescription",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          }
+        },
+        "itemPrice": {
+          "type": "Number",
+          "config": {
+            "label": "",
+            "id": "itemPrice",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ]
+}

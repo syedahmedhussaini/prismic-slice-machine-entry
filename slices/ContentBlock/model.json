@@ -1,0 +1,45 @@
+{
+  "id": "content_block",
+  "type": "SharedSlice",
+  "name": "ContentBlock",
+  "description": "ContentBlock",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ContentBlock",
+      "primary": {
+        "eyebrow": {
+          "config": {
+            "label": "Section Eyebrow",
+            "placeholder": "Text that appears the headline",
+            "allowTargetBlank": true,
+            "single": "heading5"
+          },
+          "type": "StructuredText"
+        },
+        "title": {
+          "config": {
+            "label": "Section Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          },
+          "type": "StructuredText"
+        },
+        "content": {
+          "config": {
+            "label": "Text Content",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

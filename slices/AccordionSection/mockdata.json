@@ -1,0 +1,94 @@
+[
+   {
+      "id":"default-slice",
+      "name":"Default slice",
+      "docURL":"...",
+      "version":"sktwi1xtmkfgx8626",
+      "description":"AccordionSection",
+      "primary":{
+         "title":[
+            {
+               "type":"heading1",
+               "text":"You've got great questions?",
+               "spans":[
+
+               ]
+            }
+         ],
+         "description":[
+            {
+               "type":"paragraph",
+               "text":"We've got great answers!",
+               "spans":[
+
+               ]
+            }
+         ]
+      },
+      "items":[
+         {
+            "question":[
+               {
+                  "type":"heading3",
+                  "text":"Why are slices so addictive?",
+                  "spans":[
+
+                  ]
+               }
+            ],
+            "answer":[
+               {
+                  "type":"paragraph",
+                  "text":"Great question. It's because they're addictive.",
+                  "spans":[
+
+                  ]
+               },
+               {
+                 "type": "paragraph",
+                 "text": "Philly chicken pie sauteed onions red onions. Bbq bianca ipsum fresh tomatoes. Esse pineapple onions, bbq rib beef occaecat steak enim red onions reprehenderit sausage. Ricotta dolor meat lovers marinara white pizza, banana peppers pariatur stuffed. Bacon magna white garlic aliqua marinara deserunt. Marinara thin crust bacon & tomato large ut laborum.",
+                 "spans": []
+               }
+            ]
+         },
+         {
+            "question":[
+               {
+                  "type":"heading3",
+                  "text":"How do I make my slices addictive?",
+                  "spans":[
+
+                  ]
+               }
+            ],
+            "answer":[
+
+               {
+                 "type": "paragraph",
+                 "text": "Excepteur voluptate lasagna, banana peppers do non nulla parmesan. Chicken steak pepperoni tempor laborum. White garlic extra cheese anim, eu officia consectetur thin crust red onions garlic sauce sauteed onions in. Extra cheese in laborum, personal est anim dolore cillum duis ut pepperoni deserunt chicken sausage string cheese. Bianca bacon & tomato qui buffalo sauce.",
+                 "spans": []
+               }
+            ]
+         },
+         {
+            "question":[
+               {
+                  "type":"heading3",
+                  "text":"Are there any bad questions?",
+                  "spans":[
+
+                  ]
+               }
+            ],
+            "answer":[
+               {
+                 "type": "paragraph",
+                 "text": "Philly chicken pie sauteed onions red onions. Bbq bianca ipsum fresh tomatoes. Esse pineapple onions, bbq rib beef occaecat steak enim red onions reprehenderit sausage. Ricotta dolor meat lovers marinara white pizza, banana peppers pariatur stuffed. Bacon magna white garlic aliqua marinara deserunt. Marinara thin crust bacon & tomato large ut laborum.",
+                 "spans": []
+               }
+            ]
+         }
+      ],
+      "slice_type":"accordion_section"
+   }
+]

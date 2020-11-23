@@ -1,0 +1,53 @@
+{
+  "id": "accordion_section",
+  "type": "SharedSlice",
+  "name": "AccordionSection",
+  "description": "AccordionSection",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "AccordionSection",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your feature"
+          }
+        }
+      },
+      "items": {
+        "question": {
+          "config": {
+            "label": "FAQ Question",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          },
+          "type": "StructuredText"
+        },
+        "answer": {
+          "config": {
+            "label": "FAQ Answer",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        }
+      }
+    }
+  ]
+}

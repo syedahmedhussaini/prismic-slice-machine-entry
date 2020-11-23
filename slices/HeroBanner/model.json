@@ -1,0 +1,80 @@
+{
+  "id": "hero_banner",
+  "type": "SharedSlice",
+  "name": "HeroBanner",
+  "description": "HeroBanner",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "HeroBanner",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Header Image",
+            "constraint": {},
+            "thumbnails": [
+              {
+                "name": "mobile",
+                "width": 400,
+                "height": 400
+              }
+            ]
+          },
+          "type": "Image"
+        },
+        "title": {
+          "config": {
+            "label": "Header Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Header Description",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Primary CTA Link",
+            "placeholder": "www.example.com",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "ctaLabel": {
+          "config": {
+            "label": "Primary CTA Label",
+            "placeholder": "Get Started"
+          },
+          "type": "Text"
+        },
+        "secondaryCtaLink": {
+          "config": {
+            "label": "Secondary CTA Link",
+            "placeholder": "www.example.com",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "secondaryCtaLabel": {
+          "config": {
+            "label": "Secondary CTA Label",
+            "placeholder": "Learn More"
+          },
+          "type": "Text"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

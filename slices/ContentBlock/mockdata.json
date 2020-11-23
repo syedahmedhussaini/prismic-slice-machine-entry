@@ -1,0 +1,40 @@
+[
+   {
+      "id":"default-slice",
+      "name":"Default slice",
+      "docURL":"...",
+      "version":"sktwi1xtmkfgx8626",
+      "description":"ContentBlock",
+      "primary":{
+         "eyebrow":[
+            {
+               "type":"heading5",
+               "text":"A little more about us",
+               "spans":[
+
+               ]
+            }
+         ],
+         "title":[
+            {
+               "type":"heading1",
+               "text":"We have a simple mission. Slices for every person on this planet.",
+               "spans":[
+
+               ]
+            }
+         ],
+         "content":[
+          {
+            "type": "paragraph",
+            "text": "Philly chicken pie sauteed onions red onions. Bbq bianca ipsum fresh tomatoes. Esse pineapple onions, bbq rib beef occaecat steak enim red onions reprehenderit sausage. Ricotta dolor meat lovers marinara white pizza, banana peppers pariatur stuffed. Bacon magna white garlic aliqua marinara deserunt. Marinara thin crust bacon & tomato large ut laborum.",
+            "spans": []
+          }
+         ]
+      },
+      "items":[
+
+      ],
+      "slice_type":"content_block"
+   }
+]
