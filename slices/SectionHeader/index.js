@@ -14,16 +14,16 @@ const h2 = {
 
 const MySlice = ({ slice }) => (
   <section style={section}>
-    {
-      slice.primary.title ?
-      <RichText render={slice.primary.title}/>
-      : <h2 style={h2}>Template slice, update me!</h2>
-    }
-    {
-      slice.primary.description ?
-      <RichText render={slice.primary.description}/>
-      : <p>start by editing this slice from inside the SliceMachine builder!</p>
-    }
+    <header className="w-full py-9 text-center">
+      {
+        slice.primary.eyebrow ?
+        <h6 className={`block my-3 mx-auto uppercase text-base tracking-widest font-display font-bold text-${slice.primary.color}-900`}>{RichText.asText(slice.primary.eyebrow)}</h6>
+        : null
+      }
+      <h2 className={`block lg:mx-auto uppercase text-4xl lg:text-5xl tracking-tight font-display font-bold text-${slice.primary.color}-600`}>{RichText.asText(slice.primary.title)}</h2>
+
+      <hr className={`w-4/5 block h-2 bg-${slice.primary.color}-500 mx-auto my-3`} />
+    </header>
   </section>
 );
 

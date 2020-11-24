@@ -3,29 +3,49 @@
   "type": "SharedSlice",
   "name": "TestimonialSlider",
   "description": "TestimonialSlider",
-  "variations": [{
-    "id": "default-slice",
-    "name": "Default slice",
-    "docURL": "...",
-    "version": "sktwi1xtmkfgx8626",
-    "description": "TestimonialSlider",
-    "primary": {
-      "title": {
-        "type": "StructuredText",
-        "config": {
-          "single": "heading1",
-          "label": "Title",
-          "placeholder": "This is where it all begins..."
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TestimonialSlider",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
         }
       },
-      "description": {
-        "type": "StructuredText",
-        "config": {
-          "single": "paragraph",
-          "label": "Description",
-          "placeholder": "A nice description of your feature"
+      "items": {
+        "source": {
+          "config": {
+            "label": "Testimonial Source",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "photo": {
+          "config": {
+            "label": "Testimonial Photo",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "quote": {
+          "config": {
+            "label": "Testimonial Quote",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
         }
       }
     }
-  }]
+  ]
 }

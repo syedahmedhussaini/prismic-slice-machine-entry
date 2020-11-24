@@ -15,7 +15,7 @@ const MySlice = ({ slice }) => {
         key={index}>
         <img className="w-full lg:w-1/4" src={image.url} alt={title} />
         <div className="content w-4/5 lg:w-3/4 px-3 text-left my-3 lg:my-0">
-          <header className="flex justify-between items-center mb-3">
+          <header className="flex flex-col-reverse md:flex-row md:justify-between md:items-center mb-3">
             <h1 className="uppercase text-2xl font-display tracking-tighter font-extrabold text-gray-700">{ RichText.asText(title)}</h1>
             <small className="text-sm font-light mr-6 font-bold bg-gray-200 text-purple-600 w-10 h-10 rounded-full py-3 text-center">${price}</small>
           </header>

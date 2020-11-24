@@ -1,0 +1,34 @@
+[
+   {
+      "id":"default-slice",
+      "name":"Default slice",
+      "docURL":"...",
+      "version":"sktwi1xtmkfgx8626",
+      "description":"SectionHeader",
+      "primary":{
+         "eyebrow":[
+            {
+               "type":"heading6",
+               "text":"strategize cross-media deliverables",
+               "spans":[
+
+               ]
+            }
+         ],
+         "title":[
+            {
+               "type":"heading1",
+               "text":"strategize one-to-one platforms",
+               "spans":[
+
+               ]
+            }
+         ],
+         "color":"purple"
+      },
+      "items":[
+
+      ],
+      "slice_type":"section_header"
+   }
+]

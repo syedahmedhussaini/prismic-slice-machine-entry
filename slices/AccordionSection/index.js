@@ -36,9 +36,9 @@ const MySlice = ({ slice }) => {
   return(
     <section className="bg-gray-200 p-6">
       <div className="max-w-7xl mx-auto">
-        <div className="flex py-12">
+        <div className="flex flex-col lg:flex-row py-12">
 
-          <header className="block lg:w-2/5">
+          <header className="block w-full lg:w-2/5">
             <h2 className="uppercase text-4xl lg:text-6xl tracking-tight font-display font-bold text-pink-800">{RichText.asText(slice.primary.title)}</h2>
 
             {
@@ -48,7 +48,7 @@ const MySlice = ({ slice }) => {
             }
           </header>
 
-          <main className="lg:w-3/5">
+          <main className="w-full lg:w-3/5">
           <Accordion>
             { slice.items.map((item, index) => faqItem(item, index)) }
           </Accordion>
